@@ -1,0 +1,1 @@
+(function() {var script = document.createElement("script");script.src = "https://com-thinkful.netmng.com/?url=" + encodeURIComponent(window.location.href) + "&aid=5769&siclientid=103908";script.type = "text/javascript";try { document.getElementsByTagName("head")[0].appendChild(script); } catch (e) {}})();
