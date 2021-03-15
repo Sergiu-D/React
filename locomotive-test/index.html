@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="locomotive-scroll.css" />
+    <title>Locomotive Test</title>
+  </head>
+  <body class="scroll-container">
+    <main data-scroll-container>
+      <section data-scroll data-scroll-section>
+        <h1>Header</h1>
+      </section>
+      <section id="s1" class="section-one" data-scroll-section>
+        <h1 id="h1">First scroll</h1>
+        <p
+          class="anime-p1"
+          data-scroll
+          data-scroll-target="#h1"
+          data-scroll-speed="7"
+        >
+          Some lorem ipsum text
+        </p>
+      </section>
+      <section data-scroll-section>
+        <h1>Second scroll</h1>
+        <p class="anime-p2" data-scroll data-scroll-speed="2">
+          Some lorem ipsum text
+        </p>
+      </section>
+      <section data-scroll data-scroll-section>
+        <h1>Footer</h1>
+      </section>
+    </main>
+
+    <!-- GSAP -->
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js?v=3.4.0.1"></script>
+    <!-- Locomotive js -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

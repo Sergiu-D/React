@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-child(2) {
+  color: white;
+  background-color: yellowgreen;
+}
+section:nth-child(3) {
+  color: white;
+  background-color: rgb(130, 116, 255);
+}
+
+.nothing {
+  background-color: aqua;
+}
+
+.normal-p {
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+
+.scrollable-p {
+  opacity: 1;
+}
