@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  /* overflow-x: hidden; */
+}
+
+.background {
+  width: 100vw;
+  height: max-content;
+  background-repeat: "no-repeat";
+  background-size: "cover";
+
+  height: "120vh";
+  /* overflow-x: hidden; */
+}
+
+section {
+  min-height: 100vh;
+  color: white;
+  font-size: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
